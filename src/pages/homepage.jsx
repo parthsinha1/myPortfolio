@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import parth from "../assets/psin1.jpg";
+import parth from "../assets/psin1(1).jpg";
 
 const HomePage = () => {
   const [fadeIn, setFadeIn] = useState(false);
