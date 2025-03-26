@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import parth from "../assets/psin.jpg";
+import parth from "../assets/psin1(1).jpg";
 
 const HomePage = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -36,7 +36,7 @@ const HomePage = () => {
         <img
           src={parth}
           alt="Parth Sinha"
-          className="w-[150px] sm:w-[200px] h-auto rounded-full mb-8 shadow-2xl "
+          className="w-[200px] sm:w-[250px] h-auto rounded-full mb-8 shadow-2xl "
         />
       </div>
 
