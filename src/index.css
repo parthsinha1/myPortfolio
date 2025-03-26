@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --bg-main: #D0F0C0; /* Can be kept as a light background */
+  --text-main: #4c4f69; /* Matcha-related dark text color */
+  --matcha-green: #c0d8bf; /* Soft Matcha green */
+  --cream: #D0F0C0; /* Soft Cream background */
+  --soft-beige: #EDE8D1; /* Soft Beige for accents */
+  --light-brown: #C5B783; /* Light brown for contrast */
+  --peach: #fe640b; /* Accent color */
+  --card-bg: #dce0e8; /* Background for cards */
+  --hr: #c4c4c4;
+  --card-hr: #acb0be;
+  --footer-text: #7c7f93;
+}
+
+body {
+  background-color: var(--bg-main);
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif; /* Apply Josefin Sans globally */
+}
+
+@keyframes bounceIn {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+}
+
+img:hover {
+  animation: bounceIn 0.5s ease-in-out; /* Directly apply to img */
+  display: inline-block; /* Ensure proper display property */
+}
+
+
+
+
+.home-page-li {
+  list-style-type: "/";
+  padding-left: 0.5rem;
+  max-width: fit-content;
+  transition: all 0.2s ease;
+}
+
+.home-page-li:hover {
+  list-style-type: ">";
+  transform: scale(1.1);
+  padding-left: 0.25rem;
+}
+
+.home-page-li a {
+  color: var(--text-main);
+}
+
+
+.header-container li {
+  list-style-type: "/";
+  padding-left: 0.5rem;
+  max-width: fit-content;
+  transition: all 0.2s ease;
+}
+
+.header-container li:hover {
+  list-style-type: ">";
+  transform: scale(1.1);
+}
+
+.header-container li a {
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.header-container .psin {
+  transition: all 0.2s ease;
+}
+
+.header-container .psin:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 641px) {
+  .header-container .psin::before {
+      content: "<";
+      color: var(--text-main);
+      position: absolute;
+      transform: translate(0, 0);
+      display: inline-block;
+      transform-origin: center;
+      opacity: 0;
+      transition: opacity 0.1s ease, transform 0.2s ease;
+  }
+
+  .header-container .psin:hover::before {
+      opacity: 1;
+      transform: translate(-1em, 0);
+  }
+}
+
+
+.card {
+  background-color: var(--matcha-green); /* Light matcha color for cards */
+  border: 2px solid var(--card-border); /* Light green border color */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+/* Adding some padding for the h3, p, and h5 for a better look */
+.card h3, .card p, .card h5 {
+  padding: 0.25rem 0; /* Vertical padding for spacing */
+}
+
+/* Hover effects for links */
+.card a {
+  color: var(--text-main); /* Dark text color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.card a:hover {
+  color: var(--peach); /* Change color on hover to a peach accent */
+}
+
+

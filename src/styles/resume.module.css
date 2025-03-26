@@ -1,0 +1,22 @@
+.aboutPage a {
+    transition: all 0.2s ease;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.aboutPage a:hover {
+    text-decoration: underline;
+}
+
+.aboutPage a::after {
+    font-family: monospace;
+    content: "\2197";
+    margin-left: 0.25em;
+    transition: all 0.2s ease;
+    display: inline-block;
+    transform-origin: center;
+}
+
+.aboutPage a:hover::after {
+    transform: translate(5px, -5px) scale(1.3);
+} 
