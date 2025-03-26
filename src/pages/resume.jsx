@@ -100,7 +100,7 @@ export default function Resume() {
         <div className="grid grid-rows-2 grid-cols-2 justify-between gap-2 sm:gap-4">
             <div className="flex flex-col">
                 <p className="text-sm sm:text-base font-bold mb-2">Languages</p>
-                <p className="text-xs sm:text-sm">Python, Java, C, C++, SQL, HTML</p>
+                <p className="text-xs sm:text-sm">Python, Java, C, C++, SQL, HTML, Javascript, CSS</p>
             </div>
             <div className="flex flex-col">
                 <p className="text-sm sm:text-base font-bold mb-2">ML/DS</p>
@@ -108,7 +108,7 @@ export default function Resume() {
             </div>
             <div className="flex flex-col">
                 <p className="text-sm sm:text-base font-bold mb-2">Web Dev</p>
-                <p className="text-xs sm:text-sm">React, Tailwind, Sveltekit</p>
+                <p className="text-xs sm:text-sm">React, Tailwind, Sveltekit, Node.js, Express</p>
             </div>
             <div className="flex flex-col">
                 <p className="text-sm sm:text-base font-bold mb-2">Tools/Platforms</p>
