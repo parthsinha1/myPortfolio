@@ -128,7 +128,7 @@ export default function About() {
             <li>
               GitHub repo [
               <a
-                href="https://github.com/skarokin/portfolio-svelte"
+                href="https://github.com/parthsinha1/myPortfolio"
                 target="_blank"
                 className="hover:underline inline-block"
               >
