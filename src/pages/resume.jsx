@@ -75,12 +75,12 @@ export default function Resume() {
             <li>Designed and integrated RESTful API endpoints along with Socket.io for real‑time messaging and friend request functionality, allowing users to build networks through friend invitations and a dedicated sidebar for friends.</li>
             <li>Optimized client–server communication by configuring CORS and developing a responsive React.js frontend interface, resulting in a seamless user experience across devices.</li>
         </ul>
-        <p className="text-sm sm:text-base font-bold">Bomb Lab</p>
-        <p className="text-sm sm:text-base">Reverse-engineering and debugging project to defuse a binary bomb by analyzing its assembly code and providing correct inputs for each phase</p>
+        <p className="text-sm sm:text-base font-bold">Game of Life</p>
+        <p className="text-sm sm:text-base">Java implementation of John Conway’s “Game of Life” that progresses the state of the game’s board through its many iterations</p>
         <ul className="text-xs sm:text-sm list-disc pl-6">
-            <li>Utilized GDB to step through lines of assembly code, set breakpoints, and examine specific registers to understand the logic of the binary bomb</li>
-            <li>Employed reverse engineering using C language to understand high-level logic that corresponds to the low-level assembly instructions such as control structures and direct memory access for data manipulation</li>
-            <li>Debugged C code on GNU assembler to see which functions are called and which local variables and arguments are being called from the stack</li>
+            <li>Utilized disjoint-set data structure to efficiently determine and manage connected components on the game board</li>
+            <li>Employed a quick union-find algorithm to optimize the connectivity of cells and update their states based on the rules of the game.</li>
+            <li>2D arrays, lists, and sets are used to represent the grid of cells, to keep track of the cells that need to be updated in each generation, and to accurately lookup and store live cells, respectively</li>
 
         </ul>
         <p className="text-sm sm:text-base font-bold">Bomb Lab</p>
