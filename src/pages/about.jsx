@@ -18,15 +18,15 @@ export default function About() {
               Native English 🇺🇸 and Intermediate Hindi 🇮🇳, learning reading and
               writing since 2021.
             </li>
-            <li> Finished my first internship at {" "} 
+            <li> Currently working freelance as a Senior AI Model Reviewer at {" "} 
               <a
-                href="https://www.mylearningtools.org"
+                href="https://outlier.ai/"
                 target="_blank"
                 className="hover:underline"
               > 
-                <span className="text-lg text-amber-600 ">Resilience, Inc.</span>  
+                <span className="text-lg text-violet-700 ">Outlier.ai</span>  
                  
-              </a> {" "}  as Web Developer.
+              </a> {" "}
             </li>
             <li>Musician/Artist/Lover of creating music on all platforms {" "}
             <a
