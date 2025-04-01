@@ -42,20 +42,22 @@ export default function Resume() {
     <section className="mb-4 sm:mb-8">
     <h5 className="text-sm sm:text-base tracking-widest font-josefin-sans">experience</h5>
     <hr className="border-[var(--hr)] w-full mb-2" />
+    <p className="text-sm sm:text-base italic font-semibold">Senior AI Model Review Specialist</p>
+    <p className="text-sm sm:text-base">Outlier.ai</p>
+    <ul className="text-xs sm:text-sm list-disc pl-6 mb-2">
+            <li>Conducted comparative evaluations of generative AI model responses, assessing multiple critical dimensions including truthfulness, conciseness, and safety.</li>
+            <li>Developed detailed analytical justifications for model performance ratings, utilizing a structured rubric to ensure objective and precise model output assessment.</li>
+            <li>Performed quality control analysis on AI-generated responses, identifying nuanced strengths and limitations across different language models.</li>
+            <li>Contributed to iterative improvement of AI model performance by providing systematic, evidence-based feedback that supports ongoing model refinement and accuracy.</li>
+    </ul>
+
     <p className="text-sm sm:text-base italic font-semibold">Web Developer Intern</p>
     <p className="text-sm sm:text-base">Resilience, Inc.</p>
     <ul className="text-xs sm:text-sm list-disc pl-6 mb-2">
             <li>Managing and updating mylearningtools.org and myselena.org, resolving errors, updating plugins, and uploading content to promote social emotional curriculum</li>
             <li>Collaboration with the IT department to develop projects, utilizing WordPress to enhance website functionality.</li>
             <li>Analyzing technical requirements to determine user needs and resolved conflicts within teams to prioritize content criteria.</li>
-    </ul>
-
-    <p className="text-sm sm:text-base italic font-semibold">Warehouse Operations Specialist</p>
-    <p className="text-sm sm:text-base">Amazon</p>
-    <ul className="text-xs sm:text-sm list-disc pl-6 mb-2">
-            <li>Managed warehouse operations, ensuring timely delivery and accurate inventory tracking.</li>
-            <li>Collaborated with team members to optimize warehouse processes, leading to improved efficiency and reduced costs.</li>
-
+            <li>Designing and implementing custom features using HTML, CSS, and Javascript to create clean website layouts</li>
     </ul>
 
     
