@@ -12,7 +12,7 @@ export default function Resume() {
         <div className="flex flex-row justify-between">
             <h1 className="text-[1.0rem] sm:text-[1.5rem] font-josefin-sans font-semibold">Parth Sinha</h1>
             <a
-                href="https://docs.google.com/document/d/158FhvnPP9tk1L_aoYRZekQ2SvgrtrhFPRvct8XtrdRQ/export?format=pdf"
+                href="https://drive.google.com/file/d/1gVLcKSgzFL2c9l_NxHmOS--cAaxkcBi-/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm sm:text-base"
